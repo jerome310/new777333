@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: linear-gradient(rgba(5, 5, 5, 0.4), rgba(5, 5, 5, 0.4)),
+    url(https://lh3.googleusercontent.com/ckJFb0dkU5rvHiB6UWfGuSPQafoAhdRvyDE3AJIVa_v2r1mpWyFcdEpSCVP12KcSqQmPEJnEYEvjXGZTaoKYSvc=w1281);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Header Section */
+header {
+  display: flex;
+  justify-content: space-between;
+  margin: 5%;
+}
+
+.subscribe-button {
+  background-color: #6e6d6b;
+  border: 1px solid white;
+  padding: 10px 20px;
+}
+
+.subscribe-button .button {
+  text-decoration: none;
+  color: lightgrey;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
+
+.subscribe-button:hover {
+  background-color: white;
+}
+
+.subscribe-button:hover .button {
+    color: black;
+}
+
+/* Center Section */
+.coming-soon-section {
+  text-align: center;
+  margin-top: 10%;
+}
+
+.line {
+  border-bottom: 1px solid white;
+  width: 10%;
+  margin: 4% auto 0;
+  margin-bottom: 5%;
+}
+
+.coming-soon-section p, h1 {
+    color: white;
+}
+
+.coming-soon-section p {
+    font-size: 1.5rem;
+}
+
+.coming-soon-section h1 {
+    font-size: 5rem;
+}
+
+.subscribe-for-update {
+    color: white;
+    text-align: center;
+}
+
+.subscribe-for-update p {
+    font-size: 1.5rem;
+    margin-bottom: 5%;
+}
+
+.center-button {
+    width: 100%;
+}
+
+.subscribe-for-update-button {
+    text-decoration: none;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    color: grey;
+    font-weight: 400;
+    background-color: white;
+    padding: 1.5% 4%;
+    border: none;
+}
+
+.center-button:hover .subscribe-for-update-button {
+    background-color: grey;
+    color: white;
+}
+
+footer {
+    text-align: center;
+    margin-top: 7%; 
+    background-color: grey;
+    padding: 40px 0;
+    color: white;
+}
+
+@media (max-width: 600px) {
+  /* Header Section */
+    header {
+    display: block;
+  }
+  .logo {
+    text-align: center;
+    margin: 5% 0;
+  }
+  .subscribe-button {
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+  }
+  .coming-soon-section h1 {
+    padding: 0 20px;
+}
+.line {
+    width: 25%;
+  }
+  .subscribe-for-update p {
+    font-size: 1.25rem;
+}
+.center-button .subscribe-for-update-button{
+   width: 60%;
+}
+.subscribe-for-update-button {
+    padding: 2.5% 0%;
+}
+}
